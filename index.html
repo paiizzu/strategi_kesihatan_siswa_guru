@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strategi Penjagaan Kesihatan Mental & Fizikal Siswa Guru</title>
+<style>
+:root{--navy:#183153;--teal:#167d8d;--mint:#e9f7f4;--cream:#fffaf0;--ink:#243247;--muted:#5f6d7d;--white:#fff;--line:#dce6ec;--gold:#f4bd58}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f5f8fb;color:var(--ink);line-height:1.6}
+header{background:linear-gradient(135deg,#183153,#167d8d);color:white;padding:48px 20px 42px}
+.wrap{max-width:1100px;margin:auto;padding:0 20px}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:.78rem;font-weight:bold;color:#c8f1e9}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;margin:10px 0 16px;max-width:850px}
+header p{max-width:760px;color:#edf8fa;font-size:1.08rem;margin:0}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{border:0;border-radius:999px;padding:11px 18px;font-weight:bold;cursor:pointer;text-decoration:none;display:inline-block}
+.btn-light{background:white;color:var(--navy)} .btn-outline{border:1px solid #bde6e4;color:white;background:transparent}
+main{padding:30px 0 55px}
+.intro{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-bottom:28px}
+.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 6px 20px #1831530a}
+.panel h2,.section-title{color:var(--navy);margin-top:0}
+.note{background:var(--cream);border-left:4px solid var(--gold);padding:13px 15px;border-radius:8px}
+.pill{display:inline-block;border-radius:999px;padding:4px 10px;background:var(--mint);color:#116270;font-size:.8rem;font-weight:bold;margin:3px 4px 3px 0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.strategy{background:white;border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.strategy:hover{transform:translateY(-3px);box-shadow:0 12px 26px #18315312}
+.strategy-head{padding:20px 20px 14px;display:flex;gap:14px;align-items:flex-start;background:linear-gradient(90deg,#f0fbf8,#fff)}
+.num{width:46px;height:46px;display:grid;place-items:center;flex-shrink:0;background:var(--navy);color:white;border-radius:14px;font-size:1.25rem;font-weight:bold}
+.strategy h3{margin:0;color:var(--navy);font-size:1.15rem;line-height:1.35}
+.strategy small{display:block;color:var(--teal);font-weight:bold;margin-top:5px}
+.strategy-body{padding:0 22px 20px}
+.strategy-body ul{padding-left:20px;margin:10px 0}
+.strategy-body li{margin:6px 0}
+.why{font-size:.94rem;color:var(--muted);background:#f6f9fc;border-radius:10px;padding:12px;margin-top:12px}
+.toggle{background:var(--teal);color:white;border:0;border-radius:9px;padding:9px 13px;cursor:pointer;font-weight:bold}
+.extra{display:none;margin-top:12px;padding:12px;border:1px dashed #9bcacb;border-radius:10px;background:#f4fbfa}
+.extra.open{display:block}
+section{margin-top:34px}
+.section-title{font-size:1.7rem;margin-bottom:8px}
+.sub{color:var(--muted);margin-top:0}
+.checklist{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.check-item{display:flex;gap:10px;align-items:flex-start;padding:12px;border:1px solid var(--line);border-radius:12px;background:white}
+.check-item input{margin-top:6px;accent-color:var(--teal);transform:scale(1.15)}
+.progress-wrap{margin:16px 0 6px;background:#e4edf1;border-radius:999px;height:12px;overflow:hidden}
+#progress{height:100%;width:0;background:linear-gradient(90deg,var(--teal),#61c5aa);transition:width .2s}
+#progressText{font-weight:bold;color:var(--navy)}
+.plan{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.plan div{padding:16px;background:white;border:1px solid var(--line);border-radius:14px}
+.plan strong{display:block;color:var(--teal);margin-bottom:5px}
+.sources a{color:#126f80;overflow-wrap:anywhere}
+footer{background:var(--navy);color:#eaf4f7;padding:25px 20px;text-align:center;font-size:.9rem}
+@media(max-width:720px){.intro,.grid,.checklist,.plan{grid-template-columns:1fr}.wrap{padding:0 15px}header{padding:35px 0}}
+@media print{.hero-actions,.toggle,#resetBtn{display:none}.extra{display:block}.strategy{break-inside:avoid}body{background:white}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Panduan interaktif • Komuniti kampus</div>
+    <h1>Strategi Penjagaan Kesihatan Mental &amp; Fizikal Siswa Guru</h1>
+    <p>Kesihatan mental dan fizikal saling berkait. Amalan kecil yang konsisten dapat membantu siswa guru mengurus tuntutan pembelajaran, menjaga kesejahteraan diri dan membina persekitaran kampus yang sihat.</p>
+    <div class="hero-actions">
+      <a class="btn btn-light" href="#strategi">Teroka 5 strategi ↓</a>
+      <a class="btn btn-outline" href="#amalan">Semak amalan saya</a>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <div class="intro">
+    <div class="panel">
+      <h2>Kenapa penjagaan kesihatan penting?</h2>
+      <p>Kesihatan bukan sekadar ketiadaan penyakit. Ia turut melibatkan kesejahteraan mental, keupayaan mengurus tekanan, tabiat harian yang sihat dan persekitaran yang bersih serta selamat.</p>
+      <span class="pill">Kesejahteraan mental</span><span class="pill">Kecergasan fizikal</span><span class="pill">Persekitaran selamat</span>
+    </div>
+    <div class="panel">
+      <h2>Cara menggunakan laman ini</h2>
+      <ol>
+        <li>Pilih strategi yang ingin diteroka.</li>
+        <li>Tekan “Lihat amalan” untuk mendapatkan cadangan praktikal.</li>
+        <li>Gunakan senarai semak untuk merancang tindakan harian.</li>
+      </ol>
+      <div class="note"><strong>Ingat:</strong> Mulakan dengan satu perubahan kecil dan tingkatkan secara beransur-ansur.</div>
+    </div>
+  </div>
+
+  <section id="strategi">
+    <h2 class="section-title">Lima strategi utama</h2>
+    <p class="sub">Pilih setiap kad untuk melihat contoh amalan yang sesuai dalam kehidupan kampus.</p>
+    <div class="grid">
+      <article class="strategy">
+        <div class="strategy-head"><div class="num">1</div><div><h3>Pengurusan Kesihatan Mental</h3><small>Rujukan umum: WHO</small></div></div>
+        <div class="strategy-body">
+          <ul><li>Mengurus stres dengan berkesan.</li><li>Mengamalkan teknik relaksasi.</li><li>Mendapatkan sokongan sosial dan emosi.</li></ul>
+          <div class="why"><strong>Mengapa penting?</strong> Membantu diri menghadapi tekanan pembelajaran dan mengenal pasti bila sokongan tambahan diperlukan.</div>
+          <button class="toggle" aria-expanded="false">Lihat amalan +</button>
+          <div class="extra"><strong>Cuba amalkan:</strong><ul><li>Bahagikan tugasan besar kepada langkah kecil.</li><li>Ambil rehat pendek, bernafas perlahan atau lakukan aktiviti yang menenangkan.</li><li>Berkongsi perasaan dengan orang dipercayai atau mendapatkan bantuan kaunselor jika perlu.</li></ul></div>
+        </div>
+      </article>
+      <article class="strategy">
+        <div class="strategy-head"><div class="num">2</div><div><h3>Pengamalan Aktiviti Fizikal Berkala</h3><small>Rujukan umum: WHO</small></div></div>
+        <div class="strategy-body">
+          <ul><li>Melakukan senaman secara konsisten.</li><li>Menggalakkan gaya hidup aktif.</li><li>Meningkatkan kecergasan dan kesejahteraan mental.</li></ul>
+          <div class="why"><strong>Mengapa penting?</strong> Aktiviti fizikal menyokong kesihatan tubuh dan boleh membantu kesejahteraan emosi.</div>
+          <button class="toggle" aria-expanded="false">Lihat amalan +</button>
+          <div class="extra"><strong>Cuba amalkan:</strong><ul><li>Berjalan kaki ke kelas jika sesuai dan selamat.</li><li>Regangkan badan selepas duduk lama.</li><li>Pilih aktiviti yang digemari seperti berjalan, berbasikal atau sukan bersama rakan, mengikut kemampuan diri.</li></ul></div>
+        </div>
+      </article>
+      <article class="strategy">
+        <div class="strategy-head"><div class="num">3</div><div><h3>Pemakanan Sihat dan Seimbang</h3><small>Rujukan umum: WHO</small></div></div>
+        <div class="strategy-body">
+          <ul><li>Mengambil makanan berkhasiat.</li><li>Mengamalkan diet seimbang.</li><li>Mengurangkan pengambilan makanan tidak sihat.</li></ul>
+          <div class="why"><strong>Mengapa penting?</strong> Pemakanan yang pelbagai dan seimbang membekalkan nutrien untuk menyokong kesihatan dan aktiviti harian.</div>
+          <button class="toggle" aria-expanded="false">Lihat amalan +</button>
+          <div class="extra"><strong>Cuba amalkan:</strong><ul><li>Pilih pelbagai jenis makanan termasuk sayur-sayuran dan buah-buahan.</li><li>Minum air yang mencukupi.</li><li>Hadkan makanan yang tinggi garam, gula bebas dan lemak tidak sihat; sesuaikan pilihan dengan keperluan diri.</li></ul></div>
+        </div>
+      </article>
+      <article class="strategy">
+        <div class="strategy-head"><div class="num">4</div><div><h3>Tidur dan Rehat yang Mencukupi</h3><small>Amalan kesejahteraan harian</small></div></div>
+        <div class="strategy-body">
+          <ul><li>Mendapatkan tidur yang berkualiti.</li><li>Mengurus jadual harian dengan baik.</li><li>Mengekalkan kecergasan fizikal dan mental.</li></ul>
+          <div class="why"><strong>Mengapa penting?</strong> Tidur dan rehat membantu pemulihan tubuh serta menyokong tumpuan dan pembelajaran.</div>
+          <button class="toggle" aria-expanded="false">Lihat amalan +</button>
+          <div class="extra"><strong>Cuba amalkan:</strong><ul><li>Kekalkan waktu tidur dan bangun yang teratur apabila boleh.</li><li>Rancang tugasan lebih awal supaya tidak perlu berjaga hingga lewat secara kerap.</li><li>Kurangkan penggunaan skrin sebelum tidur jika ia mengganggu rehat.</li></ul></div>
+        </div>
+      </article>
+      <article class="strategy">
+        <div class="strategy-head"><div class="num">5</div><div><h3>Kebersihan Diri dan Persekitaran</h3><small>WASH &amp; Sphere Standard</small></div></div>
+        <div class="strategy-body">
+          <ul><li>Mengamalkan kebersihan diri seperti mencuci tangan.</li><li>Menjaga kebersihan persekitaran pembelajaran.</li><li>Memastikan akses kepada kemudahan asas yang bersih, selamat dan kondusif.</li></ul>
+          <div class="why"><strong>Mengapa penting?</strong> WASH merujuk kepada air, sanitasi dan kebersihan. Kemudahan yang sesuai membantu menyokong kesihatan, maruah dan keselamatan komuniti.</div>
+          <button class="toggle" aria-expanded="false">Lihat amalan +</button>
+          <div class="extra"><strong>Cuba amalkan:</strong><ul><li>Cuci tangan menggunakan sabun pada waktu penting, seperti sebelum makan dan selepas menggunakan tandas.</li><li>Buang sampah di tempat yang disediakan dan jaga tandas serta ruang belajar bersama.</li><li>Laporkan kemudahan air atau sanitasi yang rosak kepada pihak berkaitan.</li></ul></div>
+        </div>
+      </article>
+      <article class="strategy">
+        <div class="strategy-head"><div class="num">+</div><div><h3>Amalan saling menyokong</h3><small>Untuk komuniti kampus</small></div></div>
+        <div class="strategy-body">
+          <ul><li>Hormati keperluan dan batasan setiap individu.</li><li>Galakkan rakan mendapatkan bantuan apabila diperlukan.</li><li>Bina ruang pembelajaran yang bersih, inklusif dan selamat.</li></ul>
+          <div class="why"><strong>Matlamat bersama:</strong> Penjagaan kesihatan lebih berkesan apabila individu dan komuniti sama-sama mengambil peranan.</div>
+          <button class="toggle" aria-expanded="false">Lihat amalan +</button>
+          <div class="extra"><strong>Cuba amalkan:</strong><ul><li>Tanya rakan dengan sopan tentang keadaan mereka.</li><li>Elakkan stigma terhadap individu yang memerlukan sokongan kesihatan mental.</li><li>Bekerjasama menjaga ruang umum kampus.</li></ul></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="amalan">
+    <h2 class="section-title">Senarai semak amalan saya</h2>
+    <p class="sub">Tandakan amalan yang telah atau sedang anda usahakan. Senarai ini untuk refleksi kendiri, bukan ujian kesihatan.</p>
+    <div class="panel">
+      <div class="checklist">
+        <label class="check-item"><input type="checkbox" class="habit"> Saya mengambil rehat apabila berasa tertekan.</label>
+        <label class="check-item"><input type="checkbox" class="habit"> Saya melakukan pergerakan atau aktiviti fizikal.</label>
+        <label class="check-item"><input type="checkbox" class="habit"> Saya memilih makanan yang pelbagai dan berkhasiat.</label>
+        <label class="check-item"><input type="checkbox" class="habit"> Saya merancang masa untuk tidur dan berehat.</label>
+        <label class="check-item"><input type="checkbox" class="habit"> Saya menjaga kebersihan tangan dan diri.</label>
+        <label class="check-item"><input type="checkbox" class="habit"> Saya membantu menjaga kebersihan ruang kampus.</label>
+      </div>
+      <div class="progress-wrap"><div id="progress"></div></div>
+      <p id="progressText" aria-live="polite">0 daripada 6 amalan ditandakan.</p>
+      <button class="toggle" id="resetBtn">Set semula senarai</button>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contoh pelan ringkas sehari</h2>
+    <p class="sub">Ubah suai mengikut jadual kelas, keperluan, kemampuan dan kemudahan yang tersedia.</p>
+    <div class="plan">
+      <div><strong>Awal hari</strong>Minum air, bersihkan diri dan rancang keutamaan tugasan.</div>
+      <div><strong>Sepanjang hari</strong>Ambil rehat pendek, bergerak secara berkala dan pilih makanan seimbang.</div>
+      <div><strong>Waktu malam</strong>Kurangkan kesibukan, sediakan keperluan esok dan beri masa untuk tidur.</div>
+    </div>
+  </section>
+
+
+  <section id="kuiz" class="panel" style="background:linear-gradient(135deg,#edf9f6,#ffffff);border:1px solid #b8dedb;text-align:center;padding:28px">
+    <div style="font-size:2rem" aria-hidden="true">🧠</div>
+    <h2 class="section-title" style="margin:8px 0">Uji Kefahaman Anda</h2>
+    <p class="sub" style="max-width:650px;margin:0 auto 18px">Selesai meneroka lima strategi? Cuba kuiz interaktif Kahoot! untuk menguji kefahaman tentang penjagaan kesihatan mental dan fizikal siswa guru.</p>
+    <a class="btn" style="background:#167d8d;color:white" href="https://create.kahoot.it/share/strategi-penjagaan-kesihatan-mental-fizikal-siswa-guru/e08046fd-e550-4933-aabe-cc9358585736" target="_blank" rel="noopener noreferrer">Mula Kuiz Kahoot! ↗</a>
+    <p style="font-size:.85rem;color:#5f6d7d;margin:14px 0 0">Pautan akan dibuka dalam tab baharu.</p>
+  </section>
+
+  <section class="panel sources">
+    <h2 class="section-title">Sumber rujukan dan bacaan lanjut</h2>
+    <p>Gunakan sumber berikut untuk memahami asas kesihatan dan standard kebersihan. Kandungan laman ini ialah panduan pendidikan umum, bukan pengganti nasihat profesional.</p>
+    <ul>
+      <li><a href="https://www.who.int/health-topics/mental-health" target="_blank" rel="noopener">World Health Organization (WHO) — Mental health</a></li>
+      <li><a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener">WHO — Physical activity</a></li>
+      <li><a href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet" target="_blank" rel="noopener">WHO — Healthy diet</a></li>
+      <li><a href="https://www.who.int/health-topics/water-sanitation-and-hygiene-wash" target="_blank" rel="noopener">WHO — Water, sanitation and hygiene (WASH)</a></li>
+      <li><a href="https://spherestandards.org/handbook-2018/" target="_blank" rel="noopener">The Sphere Handbook — Humanitarian Charter and Minimum Standards in Humanitarian Response</a></li>
+    </ul>
+    <div class="note"><strong>Nota akademik:</strong> Sphere Handbook dibangunkan untuk konteks tindak balas kemanusiaan. Jika digunakan dalam tugasan kampus, terangkan prinsip yang berkaitan dan jangan menyatakan bahawa semua standard Sphere ialah peraturan khusus kampus.</div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">Strategi Penjagaan Kesihatan Mental &amp; Fizikal Siswa Guru · Bahan pendidikan interaktif</div>
+</footer>
+<script>
+document.querySelectorAll('.toggle:not(#resetBtn)').forEach(button=>{
+  button.addEventListener('click',()=>{
+    const extra=button.nextElementSibling;
+    const open=extra.classList.toggle('open');
+    button.setAttribute('aria-expanded',String(open));
+    button.textContent=open?'Tutup amalan −':'Lihat amalan +';
+  });
+});
+const habits=[...document.querySelectorAll('.habit')];
+function updateProgress(){
+  const checked=habits.filter(h=>h.checked).length;
+  document.getElementById('progress').style.width=(checked/habits.length*100)+'%';
+  document.getElementById('progressText').textContent=`${checked} daripada ${habits.length} amalan ditandakan.`;
+}
+habits.forEach(h=>h.addEventListener('change',updateProgress));
+document.getElementById('resetBtn').addEventListener('click',()=>{
+  habits.forEach(h=>h.checked=false);
+  updateProgress();
+});
+</script>
+</body>
+</html>
